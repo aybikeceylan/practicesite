@@ -27,10 +27,13 @@
     color: white;
     font-size: 1rem;
 }
+.login a:hover{
+    color: black;
+}
 .navbottom{
     display: flex;
     position: sticky;
-    top: 0;
+    top: 0 ;
     background-color: #ffaa53;
     align-items: center;
     justify-content: center;
@@ -46,9 +49,14 @@
     font-weight: bold;
     text-decoration: none;
 }
+.navbottom a:hover{
+    color: white;
+}
 section{
     padding: 2rem;
     text-align: justify;
+    font-weight: 600;
+    overflow: auto;
 }
 .slack{
     border-radius: 50%;
@@ -63,4 +71,7 @@ section{
     color: white;
     border-style: none;
 
+}
+.slack:hover{
+    color: black;
 }
